@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url("https://thumbs.dreamstime.com/b/black-stone-food-background-cooking-ingredients-top-view-free-space-your-text-black-stone-food-background-cooking-ingredients-164716299.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.hero h1 {
+  font-size: 75px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.hero-p1 {
+  font-weight: 500;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.cta-buttonsh button {
+  border-radius: 20px;
+  width: 150px;
+  height: 45px;
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+}
+.cta-buttonsh {
+  margin-bottom: 50px;
+}
+.playstoreh-btn {
+  background-color: orangered;
+  border: 1px solid orangered;
+}
+.appstoreh-btn {
+  border: 1px solid white;
+  background-color: transparent;
+}
+.previewdiv {
+  display: flex;
+  justify-content: center;
+}
+.previewimg {
+  position: relative;
+  top: -100px;
+}
+.bottomhr {
+  width: 70vw;
+  margin-top: -20px;
+  color: rgb(167, 167, 167);
+  border: 1.5px solid rgb(167, 167, 167);
+}
+
+@media screen and (max-width: 1200px) {
+
+  .hero h1{
+    font-size: 45px;
+  }
+}
+
+
+@media screen and (max-width: 720px) {
+.previewimg{
+  width: 80%;
+  position: relative;
+  top: -50px;
+}
+
+}

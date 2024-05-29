@@ -1,0 +1,47 @@
+.download-app {
+  text-align: center;
+  padding: 50px 20px;
+  background: url('../assets/downloadbg.png') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.download-app h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.cta-buttons button{
+  border-radius: 5px;
+  width: 150px;
+  height: 45px;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+}
+.cta-buttons{
+  margin-bottom: 50px;
+}
+.playstore-btn{
+  background-color: orangered;
+  border: 1px solid orangered;
+}
+.appstore-btn{
+  border: 1px solid white;
+  background-color: transparent;
+}
+.previewdiv{
+  display: flex;
+  justify-content: center;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}

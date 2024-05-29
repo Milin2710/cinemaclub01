@@ -1,0 +1,77 @@
+.how-it-works {
+    text-align: center;
+    /* padding: 50px 20px; */
+    background-color: #fff;
+  }
+  
+  .how-it-works h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: grid;
+    place-content: center;
+  }
+  .step{
+    display: flex;
+    width: 70vw;
+    max-width: 1050px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    width: calc(40vw - 60px);
+    margin-left: 105px;
+  }
+  .steps .step:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .steps .step:nth-child(even) .content{
+    margin-left: 0px;
+  }
+  .content > *{
+    text-align: left;
+    margin: 10px 0;
+  }
+  .content p{
+    font-size: 20px;
+    color: rgb(108, 108, 108);
+  }
+  .h31{
+    color: orangered;
+  }
+  .h32{
+    font-size: 35px;
+    font-weight: 800;
+  }
+  .step img{
+    box-shadow: 0px 0px 120px -70px grey;
+  }
+  @media screen and (max-width: 1000px) {
+    .step {
+      margin-top: 80px;
+      display: flex !important;
+      flex-direction: column-reverse !important;
+      /* border: 1px solid black; */
+      width: 100%;
+    }
+    .step .content{
+      /* border: 1px solid blue; */
+      margin: auto !important;
+      width: 70%;
+    }
+    .step .content h3, .step .content p{
+      text-align: center !important;
+    }
+    .step img{
+      width: 44%;
+    }
+  }
+
